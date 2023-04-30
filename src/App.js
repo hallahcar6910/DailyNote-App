@@ -6,8 +6,8 @@ import './App.css';
 
 
 function App() {
-  // const [tasklist, setTasklist] = useState([]);
-  const [tasklist, setTasklist] = useState(JSON.parse(localStorage.getItem("tasklist"))|| false );
+  const [tasklist, setTasklist] = useState([]);
+  //const [tasklist, setTasklist] = useState(JSON.parse(localStorage.getItem("tasklist"))|| false );
   const [task, setTask] = useState({});
 
   useEffect(() => {
